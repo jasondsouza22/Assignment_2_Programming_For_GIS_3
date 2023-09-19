@@ -13,4 +13,5 @@ print(desc_obj.format)
 print(desc_obj.height)
 print(desc_obj.width)
 
+# Printing Base Name
 print(desc_obj.basename)
