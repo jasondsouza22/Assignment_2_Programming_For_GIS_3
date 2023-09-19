@@ -10,8 +10,8 @@ for fc in fc_name:
     desc_obj = arcpy.Describe(fc_path)
 
     sr_obj = desc_obj.spatialReference
-    print(sr_obj.name)
-    print(sr_obj.type)
+    print("The spatial reference is: {}".format(sr_obj.name))
+    print("The spatial reference type is: {}".format(sr_obj.type))
 
     shape_type = desc_obj.shapeType
     print("The geometry type of feature class: {} is {}".format(fc, shape_type))
